@@ -63,14 +63,6 @@ notebooklm-mcp get_health
 
 ---
 
-## Clientes
-
-| Cliente | Relatório |
-|---------|-----------|
-| Fannix | [fannix-estudo-palavras-chave.vercel.app](https://fannix-estudo-palavras-chave.vercel.app) |
-
----
-
 ## Licença
 
 MIT — use, modifique, distribua.
