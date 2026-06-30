@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{CLIENTE} · Estudo de Palavras-Chave · Billions Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wdth,wght@75..100,500;75..100,700&display=swap" rel="stylesheet">
+<style>
+/* ↓ COPIAR tokens-relatorios-v4.css AQUI ↓ */
+:root {
+  --bg-base: #FF2A1A;
+  --bg-depth: #3B0000;
+  --bg-deep-red: #A10F14;
+  --text-primary: #FFFFFF;
+  --text-muted: rgba(255,255,255,0.72);
+  --accent-gold: #FFD48A;
+  --accent-yellow: #FFF200;
+  --surface-glass: rgba(255,255,255,0.12);
+  --surface-glass-soft: rgba(255,255,255,0.08);
+  --surface-glass-strong: rgba(255,255,255,0.18);
+  --line: rgba(255,255,255,0.14);
+  --safe: #63D471;
+  --care: #FFD166;
+  --danger: #FF8A80;
+  --shadow: 0 18px 50px rgba(18,0,0,0.28);
+  --blur: 18px;
+  --radius-card: 28px;
+  --radius-table: 18px;
+  --radius-pill: 999px;
+}
+/* ↓ demais regras do bills-tokens.css ↓ */
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    {CLIENTE} · Estudo de Palavras-Chave
+  </div>
+  <nav class="nav-pills">
+    <a href="#pg1">Visão Geral</a>
+    <a href="#pg2">Campanhas</a>
+    <a href="#pg3">Grupos</a>
+    <a href="#pg5">Negativas</a>
+    <a href="#pg6">Stats</a>
+  </nav>
+</header>
+
+<main class="report-shell">
+
+<!-- PÁGINA 1 → Visão Geral -->
+<section id="pg1">
+  <div class="hero">
+    <div class="hero-card hero-watermark" data-watermark="{CLIENTE_SIGLA}">
+      <div class="eyebrow">Estudo de Palavras-Chave</div>
+      <h1>{CLIENTE}</h1>
+      <p>{DESCRICAO_ICP}</p>
+    </div>
+    <aside class="verdict">
+      <div>
+        <div class="eyebrow">Escopo</div>
+        <strong>{NUMERO_PALAVRAS}+</strong>
+        <span>palavras-chave · {NUMERO_GRUPOS} grupos</span>
+      </div>
+      <div class="pill">{ICP_LABEL}</div>
+    </aside>
+  </div>
+  <!-- Métricas principais -->
+  <div class="cards cards-4">
+    <div class="metric">
+      <div class="metric-label">Impressões</div>
+      <div class="metric-number" style="color:var(--safe)">{IMPRESSOES}</div>
+      <small>/mês · estimado</small>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Cliques</div>
+      <div class="metric-number">{CLIQUES}</div>
+      <small>/mês</small>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Investimento</div>
+      <div class="metric-number">{GASTO}</div>
+      <small>/mês</small>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Conversões</div>
+      <div class="metric-number">{CONVERSOES}</div>
+      <small>/mês · CPA {CPA}</small>
+    </div>
+  </div>
+</section>
+
+<!-- PÁGINA 2 → Arquitetura de Campanhas -->
+<div class="page-divider"><span>Arquitetura de Campanhas</span></div>
+<section id="pg2">
+  <!-- Árvores de campanha aqui -->
+</section>
+
+<!-- PÁGINAS 3-4 → Grupos de Palavras -->
+<section id="pg3">
+  <!-- Tabelas por grupo de anúncios -->
+</section>
+
+<!-- PÁGINA 5 → Negativas + Recomendações -->
+<section id="pg5">
+  <!-- Palavras negativas, diretrizes -->
+</section>
+
+<!-- PÁGINA 6 → Estatísticas Enriquecidas -->
+<div class="page-divider"><span>Estatísticas por Palavra-Chave</span></div>
+<section id="pg6">
+  <!-- Tabelas com Buscas/mês + Concorrência + CPC -->
+</section>
+
+</main>
+
+</body>
+</html>
